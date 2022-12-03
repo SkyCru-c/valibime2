@@ -50,9 +50,11 @@ for cont in range(8):
     if maior < pess:
         maior = pess
         qdiamaior = dia
+        diamaior = dia
 
     else:
         if pess < menor:
+            diameno = dia
             menor = pess
             qdimeno = dia
     
@@ -69,5 +71,5 @@ for cont in range(8):
 print("media", media)
 print("valor da locação ate 1000 pessoas é", tot)
 print("valor da locação acima 1000 pessoas é", vlra)
-print("o dia que teve o menor nuemro de pessoas é:", qdimeno)
-print("o dia que teve o maior nuemro de pessoas é:", qdiamaior)
+print("o dia que teve o menor nuemro de pessoas é:",diameno,"ovalor é ", qdimeno)
+print("o dia que teve o maior nuemro de pessoas é:",diamaior, "o valor é ", qdiamaior)
